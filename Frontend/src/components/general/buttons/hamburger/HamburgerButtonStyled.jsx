@@ -47,8 +47,9 @@ const activeAfterAnimation = css`
 // Definiendo contenedores
 
 export const HamburgerContainer = styled.div`
-	display: flex;
+	display: none;
 	height: 60px;
+	margin-top: -4px;
 	justify-content: center;
 	align-items: center;
 	overflow: hidden;
@@ -94,7 +95,7 @@ export const HamburgerInner = styled.span`
 	&::before,
 	&::after {
 		width: 2rem;
-		height: 0.22rem;
+		height: 0.20rem;
 		background-color: ${colors.textColor};
 		border-radius: 1rem;
 		position: absolute;
