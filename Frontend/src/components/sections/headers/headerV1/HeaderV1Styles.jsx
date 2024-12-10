@@ -32,9 +32,10 @@ export const LogoContainer = styled(Link)`
 export const Logo = styled.img`
 	height: 25px;
 	transition: all 0.2s ease;
+	filter: invert(16%) sepia(82%) saturate(0%) hue-rotate(162deg) brightness(92%) contrast(84%);
 
 	&:hover{
-		transform: scale(1.05);
+		filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(14deg) brightness(107%) contrast(101%);
   }
 
 	@media screen and (max-width: 1240px) {
@@ -75,7 +76,7 @@ export const HeaderUl = styled.ul`
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	gap: 15px;
+	gap: 12px;
 
 	@media screen and (max-width: 1024px) {
 		flex-direction: column;
@@ -102,8 +103,7 @@ export const HeaderLink = styled(Link)`
 	transition: all 0.2s ease;
 
 	&:hover{
-		transform: scale(1.1);
-		font-weight: 600;
+		color: ${colors.Color7};
   }
 
 	@media screen and (max-width: 1024px){
