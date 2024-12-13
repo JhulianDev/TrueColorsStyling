@@ -4,6 +4,7 @@ export const Section = styled.section`
 	display: flex;
 	align-items: ${(props) => props.$align || 'center'};
 	justify-content: ${(props) => props.$justify || 'center'};
+	overflow: hidden;
 
 	width: ${(props) => props.$width || '100%'};
 	min-height: ${(props) =>
@@ -13,6 +14,14 @@ export const Section = styled.section`
 	border-bottom: ${(props) => props.$borderBottom && `1px solid #303030`};
 
 	padding: 30px 60px;
+
+	@media screen and (max-width: 768px) {
+		padding: 30px;
+	}
+
+	@media screen and (max-width: 425px) {
+		padding: 30px 20px;
+	}
 `
 
 export const MaxWidth = styled.div`
