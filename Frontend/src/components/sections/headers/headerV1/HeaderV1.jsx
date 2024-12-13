@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Outlet } from 'react-router-dom'
 import { HeaderContainer, HeaderCTA, HeaderCTAMobile, HeaderLi, HeaderLink, HeaderNav, HeaderUl, Logo, LogoContainer, Separator } from './HeaderV1Styles'
 import { MaxWidth } from '../../../../assets/styles/GeneralStyles'
-import LOGOTIPO from '../../../../assets/images/general/logotipo_303030.svg'
+import LOGOTIPO from '../../../../assets/images/general/logotipo.svg'
 import HamburgerButton from '../../../general/buttons/hamburger/HamburgerButton'
 
 const HeaderV1 = () => {
