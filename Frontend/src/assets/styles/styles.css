@@ -4,13 +4,13 @@
 
 /* Clases personalizadas */
 .section-top {
-  @apply min-h-[calc(100vh-60px)] flex items-center px-14 tablet:px-8 tablet:pt-14 tablet:pb-7 mobile:px-5;
+  @apply min-h-[calc(100vh-60px)] flex items-center px-14 tablet:px-8 tablet:pt-14 tablet:pb-10 mobile:px-5;
 }
 
 .section {
-  @apply flex items-center px-14 py-14 tablet:px-8 tablet:py-7 mobile:px-5;
+  @apply flex items-center px-14 py-14 tablet:px-8 tablet:py-10 mobile:px-5;
 }
 
 .max-width {
-  @apply max-w-7xl mx-auto flex items-center justify-between tablet:flex-col tablet:justify-start;
+  @apply max-w-7xl w-full mx-auto flex items-center justify-between tablet:flex-col tablet:justify-start;
 }
