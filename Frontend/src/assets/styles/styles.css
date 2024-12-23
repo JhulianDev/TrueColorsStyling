@@ -15,6 +15,14 @@
   @apply max-w-7xl w-full mx-auto flex items-center justify-between tablet:flex-col tablet:justify-start;
 }
 
+.max-width-footer {
+  @apply max-w-7xl w-full mx-auto flex items-center justify-center tablet:flex-col tablet:justify-start;
+}
+
+.footer {
+  @apply h-8 flex items-center justify-center px-14 py-8 tablet:px-8 tablet:py-10 mobile:px-5;
+}
+
 /* Filtros personalizados */
 
 .filter-white {
