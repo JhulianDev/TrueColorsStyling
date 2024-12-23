@@ -14,3 +14,10 @@
 .max-width {
   @apply max-w-7xl w-full mx-auto flex items-center justify-between tablet:flex-col tablet:justify-start;
 }
+
+/* Filtros personalizados */
+
+.filter-white {
+  @apply filter;
+  filter: invert(100%) sepia(0%) saturate(7427%) hue-rotate(23deg) brightness(118%) contrast(118%);
+}
