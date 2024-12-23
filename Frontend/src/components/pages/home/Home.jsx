@@ -1,4 +1,5 @@
 import AboutMeV1 from '../../sections/aboutMe/aboutMeV1/AboutMeV1'
+import FooterV1 from '../../sections/footers/footerV1/FooterV1'
 import HeroV1 from '../../sections/heros/heroV1/HeroV1'
 import NewsletterV1 from '../../sections/newsletters/newsletterV1/NewsletterV1'
 import PresentationV1 from '../../sections/presentations/presentationV1/presentationV1'
@@ -12,6 +13,7 @@ const Home = () => {
 			<ServicesV1 />
 			<AboutMeV1 />
 			<NewsletterV1 />
+			<FooterV1 />
 		</>
 	)
 }
