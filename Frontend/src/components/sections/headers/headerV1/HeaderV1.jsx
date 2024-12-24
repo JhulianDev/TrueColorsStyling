@@ -25,7 +25,7 @@ const HeaderV1 = () => {
 						<HeaderUl>
 							<HeaderLi $firstItem><HeaderLink onClick={handleNav} to="#">Inicio</HeaderLink></HeaderLi>
 							<Separator>·</Separator>
-							<HeaderLi><HeaderLink onClick={handleNav} to="#">Servicios</HeaderLink></HeaderLi>
+							<HeaderLi><HeaderLink onClick={handleNav} to="coaching-de-imagen">Servicios</HeaderLink></HeaderLi>
 							<Separator>·</Separator>
 							<HeaderLi><HeaderLink onClick={handleNav} to="#">Nosotros</HeaderLink></HeaderLi>
 							<Separator>·</Separator>
