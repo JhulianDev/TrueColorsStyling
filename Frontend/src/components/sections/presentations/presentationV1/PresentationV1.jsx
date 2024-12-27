@@ -11,9 +11,9 @@ const PresentationV1 = ({ data }) => {
             <p className='text-3xl font-medium break-words hyphens-auto laptop:text-2xl'>{data.paragraph1}</p>
             <h2 className='text-greenIntense-100 text-2xl uppercase mt-5 font-extrabold break-words hyphens-auto laptop:text-xl'>{data.subtitle}</h2>
             <p className='text-2xl mt-3 break-words hyphens-auto laptop:text-xl'>{data.paragraph2}</p>
-            <hr class="border-t border-grayIntense-100 mt-6 mb-5" />
+            <hr className="border-t border-grayIntense-100 mt-6 mb-5" />
             <p className='text-2xl break-words hyphens-auto laptop:text-xl'>{data.paragraph3}</p>
-            <hr class="border-t border-grayIntense-100 mt-6" />
+            <hr className="border-t border-grayIntense-100 mt-6" />
           </div>
         </div>
       </div>
