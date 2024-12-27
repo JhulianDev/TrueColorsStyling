@@ -1,4 +1,3 @@
-import ABOUTME_IMG from '../../../../assets/images/coaching_de_imagen/benefits_image.png'
 import CHECK_ICON from '../../../../assets/images/general/check_icon.svg'
 
 const BenefitsV1 = ({ data }) => {
@@ -7,7 +6,7 @@ const BenefitsV1 = ({ data }) => {
       <div className="max-width gap-16 tablet:gap-4">
 
         <div className='relative w-[40%] tablet:w-full'>
-          <img src={ABOUTME_IMG} alt="Paullete Berg" className='relative z-10 w-full scale-95 border border-grayIntense-100' />
+          <img src={data.img} alt="Paullete Berg" className='relative z-10 w-full scale-95 border border-grayIntense-100' />
           <span className='bg-greenIntense-100 absolute w-48 h-56 -top-0 -right-0' />
           <span className='bg-greenIntense-100 absolute w-48 h-56 -bottom-0 -left-0' />
         </div>
