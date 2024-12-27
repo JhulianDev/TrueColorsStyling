@@ -1,5 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import PRESENTACION_IMG from '../assets/images/coaching_de_imagen/presentation_image.png'
+import ABOUTME_IMG from '../assets/images/coaching_de_imagen/benefits_image.png'
+import STEPS_IMG from '../assets/images/coaching_de_imagen/steps_image.png'
 
 export const data = {
   hero: {
@@ -26,6 +28,7 @@ export const data = {
     ),
   },
   benefits: {
+    img: ABOUTME_IMG,
     title: "Este servicio es para ti:",
     items: [
       {
@@ -77,5 +80,19 @@ export const data = {
         )
       }
     ]
+  },
+  steps: {
+    title: "Proceso de trabajo",
+    img: STEPS_IMG,
+    paragraph1: (
+      <>
+        Todos los servicios están diseñados para <span className='font-extrabold'>adaptarse a tus necesidades</span> y pueden llevarse a cabo en formato <span className='font-extrabold'>presencial, online</span> o incluso en <span className='font-extrabold'>formato híbrido.</span>
+      </>
+    ),
+    paragraph2: (
+      <>
+        Para todos los servicios, podemos programar una <span className='font-extrabold'>sesión previa de consulta en línea</span> para comprender en detalle de qué trata cada uno, los tiempos involucrados y <span className='font-extrabold'>los resultados que deseamos alcanzar.</span>
+      </>
+    )
   }
 }
