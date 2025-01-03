@@ -95,38 +95,82 @@ export const data = {
       </>
     )
   },
-  packs: [
-    {
-      id: uuidv4(),
-      title: "Método Ilumina Tu Imagen",
-      tag: "Para Mujeres",
-      paragraph1: (
-        <>
-          Esta asesoría consta de 4 etapas en las cuales trabajamos <span className='font-extrabold'>Colorimetría, Estilo, Silueta, Detox de Closet.</span>
-        </>
-      ),
-      paragraph2: (
-        <>
-          Para mayor información, agenda una reunión online de <span className='font-extrabold'>15 minutos</span> donde te explico de que se trata <span className='font-extrabold'>todo el programa.</span>
-        </>
-      ),
-      url: "/"
-    },
-    {
-      id: uuidv4(),
-      title: "Método Closet Ya",
-      tag: "Para Hombres",
-      paragraph1: (
-        <>
-          Asesoría de <span className='font-extrabold'>2 etapas</span> donde trabajamos <span className='font-extrabold'>tu estilo de vida y de vestir actual</span>, revisamos tus <span className='font-extrabold'>colores ideales</span> y diagnosticamos las necesidades <span className='font-extrabold'>para llegar al estilo deseado</span>
-        </>
-      ),
-      paragraph2: (
-        <>
-          Generamos un <span className='font-extrabold'>plan de acción</span> y en dos etapas cuentas con tu estilo ideal <span className='font-extrabold'>en tu casa.</span>
-        </>
-      ),
-      url: "/"
-    }
-  ]
+  packs: {
+    title: "Conoce nuestros métodos",
+    packs: [
+      {
+        id: uuidv4(),
+        title: "Método Ilumina Tu Imagen",
+        tag: "Para Mujeres",
+        paragraph1: (
+          <>
+            Esta asesoría consta de 4 etapas en las cuales trabajamos <span className='font-extrabold'>Colorimetría, Estilo, Silueta, Detox de Closet.</span>
+          </>
+        ),
+        paragraph2: (
+          <>
+            Para mayor información, agenda una reunión online de <span className='font-extrabold'>15 minutos</span> donde te explico de que se trata <span className='font-extrabold'>todo el programa.</span>
+          </>
+        ),
+        url: "/"
+      },
+      {
+        id: uuidv4(),
+        title: "Método Closet Ya",
+        tag: "Para Hombres",
+        paragraph1: (
+          <>
+            Asesoría de <span className='font-extrabold'>2 etapas</span> donde trabajamos <span className='font-extrabold'>tu estilo de vida y de vestir actual</span>, revisamos tus <span className='font-extrabold'>colores ideales</span> y diagnosticamos las necesidades <span className='font-extrabold'>para llegar al estilo deseado</span>
+          </>
+        ),
+        paragraph2: (
+          <>
+            Generamos un <span className='font-extrabold'>plan de acción</span> y en dos etapas cuentas con tu estilo ideal <span className='font-extrabold'>en tu casa.</span>
+          </>
+        ),
+        url: "/"
+      }
+    ]
+  },
+  packsIndividuals: {
+    title: "Servicios Individuales",
+    packs: [
+      {
+        id: uuidv4(),
+        title: "Estilo",
+        subtitle: "¿Como lo haremos?",
+        price: "$60.000",
+        url: "/",
+        paragraph: (
+          <>
+            Realizaremos un <span className='font-extrabold'>análisis detallado</span> de tu estilo personal, identificando las características que mejor reflejan <span className='font-extrabold'>tu personalidad</span> y te proporcionaré un <span className='font-extrabold'>informe completo</span> con <span className='font-extrabold'>looks sugeridos</span> y cuidadosamente seleccionados para su uso en diferentes en ocasiones y temporadas.
+          </>
+        )
+      },
+      {
+        id: uuidv4(),
+        title: "Full Morfología",
+        subtitle: "¿Como lo haremos?",
+        price: "$60.000",
+        url: "/",
+        paragraph: (
+          <>
+            Realizaremos un <span className='font-extrabold'>análisis completo</span> de tu <span className='font-extrabold'>forma corporal</span> y recibirás <span className='font-extrabold'>recomendaciones</span> sobre todo lo que te favorece, desde ropa hasta accesorios como <span className='font-extrabold'>carteras y zapatos</span><br /><br /><span className='font-extrabold'>· Dress Code · Cortes visuales<br />· Consejos para estilizar</span>
+          </>
+        )
+      },
+      {
+        id: uuidv4(),
+        title: "Full Visagísmo",
+        subtitle: "¿Como lo haremos?",
+        price: "$70.000",
+        url: "/",
+        paragraph: (
+          <>
+            Realizaremos un <span className='font-extrabold'>análisis completo</span> de la forma de <span className='font-extrabold'>tu rostro</span> y te brindaré <span className='font-extrabold'>recomendaciones</span> sobre todo lo que te favorece cerca de la cara, incluyendo <span className='font-extrabold'>accesorios, tipos de escotes</span> (y su altura), entre otros detalles.
+          </>
+        )
+      }
+    ]
+  }
 }
