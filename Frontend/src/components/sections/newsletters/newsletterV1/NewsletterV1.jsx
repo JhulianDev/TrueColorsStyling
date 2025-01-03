@@ -1,9 +1,9 @@
 import LOGO_VARIANTE_A from '../../../../assets/images/general/logotipo_variante_a.svg';
 import SHADOW from '../../../../assets/images/general/shadow_V1.webp';
 
-const NewsletterV1 = () => {
+const NewsletterV1 = ({ bgColor }) => {
   return (
-    <section className="section bg-greenLight-100">
+    <section className={`section ${bgColor}`}>
       <div className='max-width'>
         <div className='relative bg-greenMedium-100 w-full flex p-14 gap-14 rounded-md overflow-hidden tablet:p-8 tablet:gap-8 largeMobile:flex-col largeMobile:items-center'>
           <img src={SHADOW} alt='Sombra decorativa' className='absolute inset-0 h-full opacity-40' />

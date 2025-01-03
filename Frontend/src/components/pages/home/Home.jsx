@@ -13,7 +13,7 @@ const Home = () => {
 			<PresentationV1 data={data.presentation} />
 			<ServicesV1 />
 			<AboutMeV1 />
-			<NewsletterV1 />
+			<NewsletterV1 bgColor="bg-greenLight-100" />
 			<FooterV1 />
 		</>
 	)
