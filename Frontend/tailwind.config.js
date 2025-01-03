@@ -51,6 +51,9 @@ export default {
           400: '#606060'
         },
       },
+      fontFamily: {
+        sans: ['Inter Variable', 'sans-serif'],
+      },
     },
     screens: {
       desktop: { max: '1535px' }, // Desktops estándar y superiores
