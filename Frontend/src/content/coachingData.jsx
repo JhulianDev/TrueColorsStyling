@@ -172,5 +172,21 @@ export const data = {
         )
       }
     ]
+  },
+  newsletter: {
+    typeNewsletter: false,
+    typeCTA: true,
+    bgColor: 'bg-white',
+    url: "/",
+    title: (
+      <>
+        <span className='text-greenIntense-100'>¿Tienes dudas</span> sobre como comenzar?
+      </>
+    ),
+    paragraph: (
+      <>
+        Contáctanos y <span className='text-greenIntense-100'>te asesorarémos!</span>
+      </>
+    )
   }
 }

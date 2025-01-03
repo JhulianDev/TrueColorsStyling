@@ -24,4 +24,20 @@ export const data = {
       </>
     ),
   },
+  newsletter: {
+    typeNewsletter: true,
+    typeCTA: false,
+    bgColor: 'bg-greenLight-100',
+    url: "/",
+    title: (
+      <>
+        <span className='text-greenIntense-100'>Tu imagen ideal</span> está a solo un email de distancia
+      </>
+    ),
+    paragraph: (
+      <>
+        <span className='text-greenIntense-100'>Suscríbete a mí newsletter</span> y descubre cómo<span className='text-greenIntense-100'>resaltar tu belleza</span> interior cada día.
+      </>
+    )
+  }
 }
