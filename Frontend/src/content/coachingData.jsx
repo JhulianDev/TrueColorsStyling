@@ -94,5 +94,39 @@ export const data = {
         Para todos los servicios, podemos programar una <span className='font-extrabold'>sesión previa de consulta en línea</span> para comprender en detalle de qué trata cada uno, los tiempos involucrados y <span className='font-extrabold'>los resultados que deseamos alcanzar.</span>
       </>
     )
-  }
+  },
+  packs: [
+    {
+      id: uuidv4(),
+      title: "Método Ilumina Tu Imagen",
+      tag: "Para Mujeres",
+      paragraph1: (
+        <>
+          Esta asesoría consta de 4 etapas en las cuales trabajamos <span className='font-extrabold'>Colorimetría, Estilo, Silueta, Detox de Closet.</span>
+        </>
+      ),
+      paragraph2: (
+        <>
+          Para mayor información, agenda una reunión online de <span className='font-extrabold'>15 minutos</span> donde te explico de que se trata <span className='font-extrabold'>todo el programa.</span>
+        </>
+      ),
+      url: "/"
+    },
+    {
+      id: uuidv4(),
+      title: "Método Closet Ya",
+      tag: "Para Hombres",
+      paragraph1: (
+        <>
+          Asesoría de <span className='font-extrabold'>2 etapas</span> donde trabajamos <span className='font-extrabold'>tu estilo de vida y de vestir actual</span>, revisamos tus <span className='font-extrabold'>colores ideales</span> y diagnosticamos las necesidades <span className='font-extrabold'>para llegar al estilo deseado</span>
+        </>
+      ),
+      paragraph2: (
+        <>
+          Generamos un <span className='font-extrabold'>plan de acción</span> y en dos etapas cuentas con tu estilo ideal <span className='font-extrabold'>en tu casa.</span>
+        </>
+      ),
+      url: "/"
+    }
+  ]
 }
