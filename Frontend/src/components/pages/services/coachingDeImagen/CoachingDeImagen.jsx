@@ -17,7 +17,7 @@ const CoachingDeImagen = () => {
       <StepsV1 data={data.steps} />
       <PacksV1 data={data.packs} />
       <PacksV2 data={data.packsIndividuals} />
-      <NewsletterV1 bgColor="bg-white" />
+      <NewsletterV1 data={data.newsletter} />
       <FooterV1 />
     </>
   );
